@@ -1,0 +1,11 @@
+--- a/string.h  2022-06-10 21:20:22.349727431 +0000
++++ b/string.h  2022-06-10 21:20:40.479810096 +0000
+@@ -30,6 +30,7 @@
+ #define _STRING_H
+ 
+ #include <sys/cdefs.h>
++#include <ctype.h>
+ #include <stddef.h>
+ #include <xlocale.h>
+ 
+
